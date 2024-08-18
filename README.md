@@ -37,7 +37,7 @@
   <h3>Purpose</h3>
   <p>This repository aims to explore the process of Image to ASCII conversion without reliance on external Python libraries. The only dependencies include:</p>
   <ol>
-    <li><b>import os to allow direct communication with file status using operating system, allows case checking for valid i/o paths</b></li>
+    <li><b>'import os' to allow direct communication with file status using operating system, allows case checking for valid i/o paths</b></li>
     <li><b>import sys for reading command line arguments for user input verification</b></li>
     <li><b>import sys for reading command line arguments for user input verification</b></li>
     <li><b>PIL used only for converting all image types to BMP -> Will be phased out for custom conversion in different file formats</b></li>

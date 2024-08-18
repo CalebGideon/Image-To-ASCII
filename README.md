@@ -37,7 +37,7 @@
   <h3>Purpose</h3>
   <p>This repository aims to explore the process of Image to ASCII conversion without reliance on external Python libraries. The only dependencies include:</p>
   <ol>
-    <li><code>import os</code> to allow direct communication with file status using operating system, allows case checking for valid <b>i/o paths</b></li>
+    <li><code>import os</code> to allow direct communication with file status using the operating system, allows case checking for valid <b>i/o paths</b></li>
     <li><code>import os</code> for reading command line arguments for <b>user input verification</b></li>
     <li><code>PIL</code> used only for converting all image types to BMP -> <b>Will be phased out in favour of custom conversion in different file formats</b></li>
   </ol>
@@ -47,7 +47,7 @@
   <p>This <b>ASCII converter</b> uses manipulation of <b>image bit domain headers and data</b>, to create specified functions allowing conversion across a multitude of file types and byte sizes:</p>
   <ol>
     <li>Supports all image types, e.g. <b>PNG, BMP, JPG, JPEG, TIFF, WEBM... /b></li>
-    <li>There currently exists functions for reading: <b>8-bit colour and greyscake, 12-bit, 16-bit, 24-bit colour</b></li>
+    <li>There currently exists functions for reading: <b>8-bit colour and greyscale, 12-bit, 16-bit, 24-bit colour</b></li>
     <li>Downsampling algorithm with average downsampling intensity <b>of 1 - 20 scales</b></li>
     <li>Aspect-Ratio setting for wider image types. <b>Average of 1-4 or 1:1 to 4:1</b></li>
       <li>Negative or Positive ASCII mode. <b>Either "light" or "dark" -> Inverts shadows, view below:</b></li>
@@ -55,7 +55,7 @@
 </div>
 
 <h3>Limitations</h3>
-  <p><b>WARNING:</b>The ASCII converter currently does not support alpha conversion with 32-bit PNG images. Neither does it currently support more esoteric bit types such as 4-bit, 1-bit, 2-bit. GIF's are pending</p>
+  <p><b>WARNING:</b>The ASCII converter currently does not support alpha conversion with 32-bit PNG images. Neither does it currently support more esoteric bit types such as 4-bit, 1-bit, 2-bit. GIFs are pending</p>
 </div>
 
 <h1>How to Setup</h1>
@@ -63,6 +63,7 @@
 <div>
   <h3>Download -> Source Code || .exe</h3>
   <p>Observe below the contents of ASCII_Converter:</p>
+  ![](README_IMG'S/Folder_1.jpg)
   <ul>
     <li><b>It's first two folders consist of build data for the pyinstaller executable, and the folder containing the executable program for the code and reliable location for placing your images</b></li>
     <li><b>There are two ASCII_Converter source files in jupyter notebook and python, both may be preferable if you wish to modify any functionalities directly</b></li>

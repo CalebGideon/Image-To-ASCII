@@ -73,7 +73,9 @@
     <img src="README_IMG'S/Folder_4.jpg">
     <br>
   </ul>
+</div>
 
+<div>
   <p><b>If you wish to directly run the application, simply place a folder inside of IMG'S_HERE, open the ASCII_Converter, and after conversion, an output file will be specified. More on command line instructions for .exe converter below</b></p>
 </div>
 
@@ -105,7 +107,9 @@
     <img src="README_IMG'S/c4.jpg">
     <br>
   </ul>
+</div>
 
+<div>
   <p>CONGRATULATIONS, you have now created a notepad.txt file called output, that will have contained your specified ASCII text based on the input image. <b>WARNING: Additional conversions will overwrite this file, so take care to backup each ASCII you create</b></p>
 </div>
 

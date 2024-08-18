@@ -66,8 +66,11 @@
   <img src="README_IMG'S/Folder_1.jpg">
   <ul>
     <li><b>It's first two folders consist of build data for the pyinstaller executable, and the folder containing the executable program for the code and reliable location for placing your images</b></li>
+    <img src="README_IMG'S/Folder_2.jpg">
     <li><b>There are two ASCII_Converter source files in jupyter notebook and python, both may be preferable if you wish to modify any functionalities directly</b></li>
+    <img src="README_IMG'S/Folder_3.jpg">
     <li><b>A readme containing a copy of the Github's repository README</b></li>
+    <img src="README_IMG'S/Folder_4.jpg">
   </ul>
 
   <p><b>If you wish to directly run the application, simply place a folder inside of IMG'S_HERE, open the ASCII_Converter, and after conversion, an output file will be specified. More on command line instructions for .exe converter below</b></p>
@@ -76,15 +79,20 @@
 <div>
   <h3>Parameters & Examples</h3>
   <p>Observe below the contents of ASCII_Converter.exe:</p>
+  <img src="README_IMG'S/c1.jpg">
   <ul>
     <p>The .exe will prompt the user to provide a correct input in regards to each step (either required or optional), for the ASCII conversion process.</p>
     <li><b>Example, if your image is called Test, and is a .jpg file, you would respond to the first query with -> Test.jpg</b></li>
+    <img src="README_IMG'S/c2.jpg">
     <p>You will then be asked what your prefered downsampling factor will be. Larger images benefit from hi  gher downsampling, with bullpark values usually in the range of 5-20 (Experiment as you see fit)</p>
     <li><b>Example, you could provide a value 5 -> downsamples the image by 5 times its original size</b></li>
+    <img src="README_IMG'S/c3.jpg">
     <p>You will then be asked If you would like to specifiy an aspect ratio. This determines the width to height ratio of an image, as ASCII tends to be visually taller than wider, it can be beneficial for detailed images</p>
     <li><b>Example, if you would like a double 2:1 aspect ratio, input -> 2</b></li>
     <p>You will then be asked if you would like to specify whether the image uses negative shadows or its default postive ones.</p>
+    <img src="README_IMG'S/c4.jpg">
     <li><b>Example, by default, ASCII is outputted as light shadow mode, but can be specified to dark. Input the word light, or dark for these modes-> 2</b></li>
+    <img src="README_IMG'S/c4.jpg">
   </ul>
 
   <p>CONGRATULATIONS, you have now created a notepad.txt file called output, that will have contained your specified ASCII text based on the input image. <b>WARNING: Additional conversions will overwrite this file, so take care to backup each ASCII you create</b></p>

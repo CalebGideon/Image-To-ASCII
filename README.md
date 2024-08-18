@@ -79,7 +79,7 @@
   <ul>
     <p>The .exe will prompt the user to provide a correct input in regards to each step (either required or optional), for the ASCII conversion process.</p>
     <li><b>Example, if your image is called Test, and is a .jpg file, you would respond to the first query with -> Test.jpg</b></li>
-    <p>You will then be asked what your prefered downsampling factor will be. Larger images benefit from higher downsampling, with bullpark values usually in the range of 5-20 (Experiment as you see fit)</p>
+    <p>You will then be asked what your prefered downsampling factor will be. Larger images benefit from hi  gher downsampling, with bullpark values usually in the range of 5-20 (Experiment as you see fit)</p>
     <li><b>Example, you could provide a value 5 -> downsamples the image by 5 times its original size</b></li>
     <p>You will then be asked If you would like to specifiy an aspect ratio. This determines the width to height ratio of an image, as ASCII tends to be visually taller than wider, it can be beneficial for detailed images</p>
     <li><b>Example, if you would like a double 2:1 aspect ratio, input -> 2</b></li>
@@ -89,3 +89,22 @@
 
   <p>CONGRATULATIONS, you have now created a notepad.txt file called output, that will have contained your specified ASCII text based on the input image. <b>WARNING: Additional conversions will overwrite this file, so take care to backup each ASCII you create</b></p>
 </div>
+
+<div>
+  <h3>Creating your own Executable!</h3>
+  <ol>
+    <li><b>To create your own executable, all you need is to download the notebook version of the ASCII_Converter as specified above (.ipynb).</b></li>
+    <li>Open cmd</b></li>
+    <li>Right click the file explorer top repository bar to grab the location path where your file resides</b></li>
+    <li>Chose copy</li>
+    <li>add cd to your windows cmd and paste the repository path in as follows:</li>
+    <li>In the correct path, add the following line to create a .py copy of your ASCII_Converter</li>
+    Inline 'cmd'
+  ```jupyter nbconvert --to script ASCII_Converter.ipynb```
+  <li>Wait until the file is created, than create an executable using the following line</li>
+    Inline 'cmd'
+  ```pyinstaller --onefile ascii_converter.py```
+
+  <li>Your executable will now be available in the dist folder!</li>
+  </ol>
+  

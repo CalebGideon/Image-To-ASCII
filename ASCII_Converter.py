@@ -11,6 +11,7 @@ import os
 #Stores a list of 11 ASCII characters going from largest size to smallest. 
 #floor integer Divide any pixel in range 0 - 255 by 25 -> it will be an index in this list
 ASCII_char = []
+global_output_dir = None
 global_file_dir = None
 text_representation = None
 downscale_factor = None

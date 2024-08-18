@@ -63,7 +63,7 @@
 <div>
   <h3>Download -> Source Code || .exe</h3>
   <p>Observe below the contents of ASCII_Converter:</p>
-  ![](README_IMG'S/Folder_1.jpg)
+  <img src="README_IMG'S/Folder_1.jpg">
   <ul>
     <li><b>It's first two folders consist of build data for the pyinstaller executable, and the folder containing the executable program for the code and reliable location for placing your images</b></li>
     <li><b>There are two ASCII_Converter source files in jupyter notebook and python, both may be preferable if you wish to modify any functionalities directly</b></li>

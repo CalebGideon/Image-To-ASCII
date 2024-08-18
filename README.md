@@ -6,35 +6,28 @@
 
 <div>
   <ul>
-    <li>Breakdown
+    <li><a href="#section1">Breakdown</a>
     <ul>
-      <li>Purpose</li>
-      <li>Capabilities</li>
-      <li>Limitations</li>
+      <li><a href="#purpose">Purpose</li></a>
+      <li><a href="#capabilities">Capabilities</li></a>
+      <li><a href="#limitations">Limitations</li></a>
     </ul>
     </li>
-    <li>How to Setup
+    <li><a href="#section2">How to Setup</a>
     <ul>
-      <li>Download -> Source Code || .exe</li>
-      <li>Parameters & Examples</li>
+      <li><a href="#download">Download -> Source Code || .exe</li></a>
+      <li><a href="#parameters">Parameters & Examples</li></a>
+        <li><a href="#creating">Creating your own Executable!</li></a>
     </ul>
     </li>
-    <li>Improvements Pending
-    <ul>
-      <li>More Efficient Downsampling</li>
-      <li>32-bit BMP conversion function</li>
-      <li>Specify I/O</li>
-    </ul>
-    </li>
-  </ul>
 </div>
 
 <div>
-  <h2>Breakdown</h2>
+  <h2 id="section1">Breakdown</h2>
 </div>
 
 <div>
-  <h3>Purpose</h3>
+  <h3 id="purpose">Purpose</h3>
   <p>This repository aims to explore the process of Image to ASCII conversion without reliance on external Python libraries. The only dependencies include:</p>
   <ol>
     <li><code>import os</code> to allow direct communication with file status using the operating system, allows case checking for valid <b>i/o paths</b></li>
@@ -43,7 +36,7 @@
   </ol>
 </div>
 
-<h3>Capabilities</h3>
+<h3 id="capabilities">Capabilities</h3>
   <p>This <b>ASCII converter</b> uses manipulation of <b>image bit domain headers and data</b>, to create specified functions allowing conversion across a multitude of file types and byte sizes:</p>
   <ol>
     <li>Supports all image types, e.g. <b>PNG, BMP, JPG, JPEG, TIFF, WEBM... /b></li>
@@ -54,14 +47,14 @@
   </ol>
 </div>
 
-<h3>Limitations</h3>
+<h3 id="limitations">Limitations</h3>
   <p><b>WARNING:</b>The ASCII converter currently does not support alpha conversion with 32-bit PNG images. Neither does it currently support more esoteric bit types such as 4-bit, 1-bit, 2-bit. GIFs are pending</p>
 </div>
 
-<h1>How to Setup</h1>
+<h1 id="section2">How to Setup</h1>
 
 <div>
-  <h3>Download -> Source Code || .exe</h3>
+  <h3 id="downloads">Download -> Source Code || .exe</h3>
   <p>Observe below the contents of ASCII_Converter:</p>
   <br>
   <img src="README_IMG'S/Folder_1.jpg">
@@ -85,7 +78,7 @@
 </div>
 
 <div>
-  <h3>Parameters & Examples</h3>
+  <h3 id="parameters">Parameters & Examples</h3>
   <p>Observe below the contents of ASCII_Converter.exe:</p>
   <br>
   <img src="README_IMG'S/c1.jpg">
@@ -117,7 +110,7 @@
 </div>
 
 <div>
-  <h3>Creating your own Executable!</h3>
+  <h3 id="creating">Creating your own Executable!</h3>
   <ol>
     <li><b>To create your own executable, all you need is to download the notebook version of the ASCII_Converter as specified above (.ipynb).</b></li>
     <li>Open cmd</b></li>
